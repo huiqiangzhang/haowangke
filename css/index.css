@@ -1,0 +1,154 @@
+@media screen and (max-width: 2000px) {
+    html {
+        font-size: 312.5px;
+    }
+}
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 125px;
+    }
+}
+@media screen and (max-width: 414px) {
+    html {
+        font-size: 64.6875px;
+    }
+}
+@media screen and (max-width: 412px) {
+    html {
+        font-size: 64.375px;
+    }
+}
+@media screen and (max-width: 384px) {
+    html {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 58.59375px;
+    }
+}
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 56.25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 50px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: "Helvetica Neue","微软雅黑",sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+}
+img {
+    border: none;
+}
+.head{
+    width: 100%;
+    background: #515151;
+    height: 0.62rem;
+}
+.search{
+    display: inline-block;
+    text-align: center;
+    padding: 0.24rem 0;
+    box-sizing: border-box;
+    height: 0.5rem;
+    background: #868688;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 0.05rem;
+    margin-top: 0.06rem;
+}
+.search input{
+    float: left;
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 0.5rem;
+    background: #868688;
+    margin-top: -0.24rem;
+    border-radius: 0.05rem;
+    color: #FFFFFF;
+    font-size: 0.5rem;
+}
+.searlog{
+    display: block;
+    height: 0.5rem;
+    width: 0.5rem;
+    background: url("../img/search_03.png");
+    float: right;
+    margin-top: -0.24rem;
+    background-size: 100%;
+}
+.banner {
+background: pink;
+width: 100%;
+height: 10rem;
+position: relative;
+z-index: 1000;
+font-size: 0.3rem;
+}
+.banner .main {
+width: 100%;
+height: auto;
+position: absolute;
+}
+.banner .main .titlebox {
+width: 100%;
+height: 0.5rem;
+background: #fff;
+margin-bottom:0.16rem ;
+}
+.banner .main .titlebox .title {
+width: 23%;
+height: 100%;
+background: #f5650e;
+line-height: 0.6rem;
+text-align: center;
+color: #fff;
+float: left;
+box-sizing: border-box;
+    margin-bottom: 0.1rem;
+}
+.titleright{
+margin-right: 2.6%;
+}
+.banner .main .titlebox .titleblue{
+    background: #3889C1;
+}
+.banner .main .titlebox .titleraido{
+    border-radius: 0.5rem;
+}
+.banner .main .menu {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+    display: none;
+    z-index: 100; }
+.banner .main .xianshi {
+    display: block; }
+.banner .main .titlebox .click {
+    background: #EE4F0B; }
+.foot{
+    height: 1.19rem;
+    width: 100%;
+    background:  url("../img/foot.png ");
+    background-size: 100%;
+    position: absolute;
+}
